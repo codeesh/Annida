@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "cd Client_Annida && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
   "type": "commonjs",
   "dependencies": {
     "react-router-dom": "^7.13.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
   }
 }
