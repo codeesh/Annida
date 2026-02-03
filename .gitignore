@@ -1,0 +1,30 @@
+# Node
+node_modules/
+Client_Annida/node_modules/
+
+# Build
+dist/
+build/
+Client_Annida/dist/
+
+# Vite
+/vite.config.local
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and Editors
+.DS_Store
+.vscode/
+.idea/
+
+# Misc
+*.log
+coverage/
