@@ -1,4 +1,6 @@
 // src/components/ImpactStats.jsx
+import './ImpactStats.css';
+
 console.log('[debug] ImpactStats.jsx loaded');
 export default function ImpactStats() {
   const stats = [
@@ -10,9 +12,9 @@ export default function ImpactStats() {
   return (
     <div className="impact-stats">
       {stats.map((stat, idx) => (
-        <div key={idx} style={{ textAlign: "center" }}>
+        <div key={idx} className="stat-item">
           <h2 className="stat-number">{stat.number}</h2>
-          <p>{stat.label}</p>
+          <p className="stat-label">{stat.label}</p>
         </div>
       ))}
     </div>

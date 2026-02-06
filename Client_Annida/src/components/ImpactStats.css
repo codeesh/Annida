@@ -1,0 +1,30 @@
+/* Impact Stats */
+.impact-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #E6EFE9 0%, #F5F9F7 100%);
+  color: #073B2A;
+  gap: 30px;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1 1 150px;
+}
+
+.stat-number {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0B6E4F;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  color: #6B7F77;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}

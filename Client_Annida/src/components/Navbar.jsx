@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo/An_Nida_Logo_white_version.png";
 import ukFlag from "../assets/icons/united-kingdom.png";
 import bdFlag from "../assets/icons/bangladesh.png";
 
@@ -29,7 +30,9 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Annida</div>
+      <Link to="/" className="logo">
+        <img src={logo} alt="An-Nida Logo" className="logo-image" />
+      </Link>
       <div className="nav-right">
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>

@@ -19,7 +19,7 @@ export default function Home() {
 
       <section className="page-container">
         <div className="inner">
-          <h2 style={{ textAlign: "center", marginBottom: "30px" }}>Our Programs</h2>
+          <h2 className="page-title">Our Programs</h2>
           <div className="cards-grid">
             <ProgramCard title="Education" />
             <ProgramCard title="Relief" />
